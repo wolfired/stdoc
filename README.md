@@ -1,1 +1,20 @@
 # stdoc
+
+just a chs doc repo for c stdlib
+
+# usage
+
+```bash
+
+# build, install
+cmake -DCMAKE_INSTALL_PREFIX=/home/bed -B ./build && \
+cmake --build ./build && \
+cmake --install ./build
+
+# gen doc
+doxygen
+
+# run web server
+python -m http.server -b 0.0.0.0 -d ./html 8000
+
+```

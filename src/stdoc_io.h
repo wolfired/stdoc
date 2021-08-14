@@ -1,6 +1,6 @@
 /**
  * @file stdoc_io.h
- * @author LinkWu (wjianl@qq.com)
+ * @author wolfired (wolfired@gmail.com)
  * @brief 封装 @b stdio.h , 增加中文文档
  * @version 0.0.1
  * @date 2021-08-13

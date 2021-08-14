@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(stdoc)
+project(stdoc VERSION 1.2.4)
 
 find_program(CCACHE_PROGRAM ccache)
 if(CCACHE_PROGRAM)
