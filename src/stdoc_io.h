@@ -65,7 +65,7 @@ FILE* stdoc_tmpfile();
 /**
  * @brief @b 生成临时文件名
  * @ingroup operations_on_files
- * @deprecated
+ * @deprecated 不安全
  *
  * @param[out] str
  *
