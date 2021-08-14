@@ -6,6 +6,9 @@ just a chs doc repo for c stdlib
 
 ```bash
 
+# clone
+
+
 # build, install
 cmake -DCMAKE_INSTALL_PREFIX=/home/bed -B ./build && \
 cmake --build ./build && \
