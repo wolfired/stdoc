@@ -7,7 +7,8 @@ just a chs doc repo for c stdlib
 ```bash
 
 # clone
-
+git clone --recurse-submodules git@github.com:wolfired/stdoc.git && \
+git -C ./doxygen-awesome-css checkout v1.5.0
 
 # build, install
 cmake -DCMAKE_INSTALL_PREFIX=/home/bed -B ./build && \
