@@ -10,7 +10,13 @@ just a chs doc repo for c stdlib
 git clone --recurse-submodules git@github.com:wolfired/stdoc.git && \
 git -C ./doxygen-awesome-css checkout v1.5.0
 
-# build, install
+# build
+rm -rf ./build && \
+cmake -B ./build && \
+cmake --build ./build
+
+# install
+rm -rf ./build && \
 cmake -DCMAKE_INSTALL_PREFIX=/home/bed -B ./build && \
 cmake --build ./build && \
 cmake --install ./build
